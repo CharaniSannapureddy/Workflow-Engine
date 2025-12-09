@@ -9,7 +9,7 @@ from app.engine.graph import Graph, Node
 from app.engine.runner import run_graph_async
 from app.engine.websocket_manager import manager
 
-import app.workflows.code_review  # register tools automatically
+import app.workflows.code_review
 graphs = storage.graphs
 runs = storage.runs
 
